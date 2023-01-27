@@ -1,0 +1,35 @@
+{
+    // This file is used to configure the three buttons along Codio's top menu.
+    
+    // Run button configuration
+    //"commands": {
+    //    "Compile & Run": "g++ -o {{filename_no_ext}} {{filename}} && ./{{filename_no_ext}}",
+    //    "Compile": "g++ -o {{filename_no_ext}} {{filename}}",
+    //    "Run": "./{{filename_no_ext}}"
+    //},
+    // Preview button configuration
+    "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+    },
+    // Debugger target button configuration
+    "debugger": [{"type":"GDB",
+    "command":"/tmp/program83b0717fa37e2e0346bafc8c1429cb87 colbert_gs.bmp campus1.bmp 100 o1.bmp o2.bmp",
+    "before":"g++ -g chromakey.cpp bmplib.cpp -o /tmp/program83b0717fa37e2e0346bafc8c1429cb87",
+    "single":true,"lang":"cpp","additionalCompilerFlags":"","sourcePath":"{{filepath}}",
+    "args":"colbert_gs.bmp campus1.bmp 100 o1.bmp o2.bmp","uuid":"65d293ba-8385-602d-bcbe-7b86f94c9c58","name":"Debug colbert_gs 100"},
+    {"type":"GDB",
+    "command":"/tmp/program83b0717fa37e2e0346bafc8c1429cb88 bird_gs.bmp campus1.bmp 100 o1.bmp o2.bmp",
+    "before":"g++ -g chromakey.cpp bmplib.cpp -o /tmp/program83b0717fa37e2e0346bafc8c1429cb88",
+    "single":true,"lang":"cpp","additionalCompilerFlags":"","sourcePath":"{{filepath}}",
+    "args":"bird_gs.bmp campus1.bmp 100 o1.bmp o2.bmp","uuid":"65d293ba-8385-602d-bcbe-7b86f94c9c59","name":"Debug bird_gs 100"}
+    ]
+}
+
+    // Debugger target button configuration
+//    "debugger": [
+//      {"type":"GDB","command":"/tmp/program83b0717fa37e2e0346bafc8c1429cb87 ","before": "g++ -g chromakey.cpp bmplib.cpp -o /tmp/program83b0717fa37e2e0346bafc8c1429cb87","single":true,"lang":"cpp","additionalCompilerFlags":"","sourcePath":"{{filepath}}","args":"colbert_gs.bmp campus1.bmp 100 o1.bmp o2.bmp","uuid":"65d293ba-8385-602d-bcbe-7b86f94c9c58","name":"Debug colbert_gs 100"},
+//        {"type":"GDB","command":"/tmp/program83b0717fa37e2e0346bafc8c1429cb88 ","before":"g++ -g chromakey.cpp bmplib.cpp -o /tmp/program83b0717fa37e2e0346bafc8c1429cb88","single":true,"lang":"cpp","additionalCompilerFlags":"","sourcePath":"{{filepath}}","args":"bird_gs.bmp campus1.bmp 100 o1.bmp o2.bmp","uuid":"66e293ba-8385-602d-bcbe-7b86f94c9c59","name":"Debug bird_gs 100"}]
+//}

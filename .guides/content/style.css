@@ -1,0 +1,15 @@
+<style>
+figure {
+  border: 1px #050505 solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: gray;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
